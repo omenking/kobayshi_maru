@@ -1,0 +1,14 @@
+games:
+  - index
+  - show
+  - game
+  - challenge
+  - stats_left
+  - stats_right
+  - left
+  - end_message
+shared:
+  - popup
+cards:
+  - card
+

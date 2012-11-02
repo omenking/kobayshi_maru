@@ -1,0 +1,34 @@
+.cover
+.icon
+.cost
+  {{#tech}}
+  .tech
+    {{tech}}
+  {{/tech}}
+  {{#weapons}}
+  .weapons
+    {{weapons}}
+  {{/weapons}}
+  {{#energy}}
+  .energy
+    {{energy}}
+  {{/energy}}
+.name {{name}}
+.graphic{ style: "background: url(/assets/cards/{{card_id}}.png) no-repeat" }
+.affect
+  {{#damage}}
+  .damage
+    Attack {{damage}}
+  {{/damage}}
+  {{#shields}}
+  .sheilds
+    Shields {{shields}}
+  {{/shields}}
+  {{#health}}
+  .health
+    Repairs {{health}}
+  {{/health}}
+  {{#special}}
+  .special
+    {{special}}
+  {{/special}}

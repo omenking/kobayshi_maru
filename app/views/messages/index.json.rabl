@@ -1,0 +1,2 @@
+collection @messages
+attributes :message

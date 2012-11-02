@@ -1,0 +1,29 @@
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: kobayashi_maru
+  pool: 25
+  username: root
+  password: Khaaaaaaaaaaaaaannnnn!!!!!!!1111111111
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: km_dev
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+test: &test
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+  database: km_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
